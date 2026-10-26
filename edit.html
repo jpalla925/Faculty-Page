@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="styles.css">
+        <meta charset="UTF-8">
+        <title>Faculty Profile Page</title>
+    </head>
+    <header>
+        <div class="navbar">
+            <h1>School Name</h1>
+            <h2><a href="index.html">Profile</a></h2>
+            <h2><a href="edit.html">Edit</a></h2>
+        </div>
+    </header>
+    <body>
+        <h1>Edit Faculty Profile Page</h1>
+        <div class="container">
+            <div class="row1">
+                <div class="faculty-info">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" value="John Doe">
+                    <label for="role">Role:</label> 
+                    <input type="text" id="role" name="role" value="Faculty Member">
+                    <label for="department">Department:</label>
+                    <input type="text" id="department" name="department" value="Science">
+                </div>
+                <div class="profile-picture-edit">
+                    <img src="profilePicture.png" alt="Profile Picture">
+                    <label for="profilePicture">Profile Picture:</label>
+                    <input type="file" id="profilePicture" name="profilePicture">
+                </div>
+                
+            </div>
+            <div class="row2">
+                <div class="bio">
+                    <label for="bio">Bio:</label>
+                    <textarea id="bio" name="bio">Enter your biography here...</textarea>
+                </div>
+                <div class="contact-info">
+                    <h2>Contact Information</h2>
+                    <label for="phone">Phone:</label>
+                    <input type="text" id="phone" name="phone" value="(123) 456-7890">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" value="john.doe@university.edu">
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
