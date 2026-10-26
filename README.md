@@ -1,3 +1,7 @@
+# Wire Frame (UXPin)
+
+https://preview.uxpin.com/3d0fd9654feecffdbca8cdb7cb96734112ec62f4
+
 # Faculty Profile Page
 
 A static HTML/CSS mockup of a faculty profile site, built for the COP4504 Module 2 assignment. It has two pages that share one navigation bar and stylesheet:
